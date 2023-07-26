@@ -1,0 +1,79 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: cornflowerblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrapper{
+    border-radius: 8px;
+    border: 1px solid var(--gray-scale-gray-50, #F2F2F2);
+    background: var(--gray-scale-white, #FFF);
+    box-shadow: 0px 0px 56px 0px rgba(0, 38, 3, 0.08);
+    padding: 30px 0;
+    max-width: 800px;
+    margin: 120px auto;
+}
+h1 {
+    margin-bottom: 40px;
+    color: rgb(61, 58, 58);
+    font-size: 45px;
+    margin-top: 50px;
+}
+#data-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+}
+#data-container div {
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: var(--colour-10, #524f4f);
+    font-weight: 600;
+}
+.data-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+#edit-form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#edit-form label {
+    margin-bottom: 10px;
+    color:#524f4f;
+    font-size: 22px;
+    margin-right: 20px;
+}
+#edit-form input[type="text"] {
+    width: 50%;
+    border: 1px solid var(--gray-scale-gray-100, #E6E6E6);
+    background: var(--gray-scale-white, #FFF);
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid rgb(185, 181, 181);
+    border-radius: 5px  5px;
+    padding: 10px 10px;
+    font-size: 20px;
+    color: var(--gray-scale-gray-400, #656363);
+}
+#edit-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 11px 20px;
+    font-size: 18px;
+    margin-top: -100px;
+    border: none;
+    border-radius:  5px 5px ;
+    margin-left: 10px;
+    cursor: pointer;
+}
